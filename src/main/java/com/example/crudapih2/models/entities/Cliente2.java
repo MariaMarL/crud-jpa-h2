@@ -12,7 +12,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @PrimaryKeyJoinColumn(referencedColumnName = "id_persona")
-public class Cliente extends Persona{
+public class Cliente2 extends Persona{
 
     @Column(name = "clienteId")
     @GeneratedValue(strategy = GenerationType.AUTO)

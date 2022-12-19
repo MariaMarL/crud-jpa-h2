@@ -12,7 +12,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Inheritance(strategy = InheritanceType.JOINED)
-public class Persona {
+public class Persona2 {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
